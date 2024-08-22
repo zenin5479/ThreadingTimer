@@ -90,7 +90,7 @@
          // FormOne
          // 
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-         ClientSize = new System.Drawing.Size(270, 289);
+         ClientSize = new System.Drawing.Size(230, 267);
          Controls.Add(LabelStopwatch);
          Controls.Add(ButtonReset);
          Controls.Add(ButtonStop);
