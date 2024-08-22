@@ -5,12 +5,12 @@ using System.Windows.Forms;
 
 namespace TimerOne
 {
-   public partial class Form1 : Form
+   public partial class FormOne : Form
    {
       private System.Threading.Timer _t1;
       private TimeSpan _ts;
 
-      public Form1()
+      public FormOne()
       {
          InitializeComponent();
          _ts = new TimeSpan(0, 0, 0, 0, 0);

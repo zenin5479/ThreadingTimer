@@ -1,6 +1,6 @@
 ﻿namespace TimerOne
 {
-   partial class Form1
+   partial class FormOne
    {
       /// <summary>
       ///  Required designer variable.
@@ -87,7 +87,7 @@
          TextBoxSeconds.TabIndex = 25;
          TextBoxSeconds.Text = "0";
          // 
-         // Form1
+         // FormOne
          // 
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
          ClientSize = new System.Drawing.Size(267, 164);
@@ -99,7 +99,8 @@
          Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
          MaximizeBox = false;
          MinimizeBox = false;
-         Name = "Form1";
+         Name = "FormOne";
+         StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Таймер";
          FormClosing += FormOne_Closing;
          ResumeLayout(false);
