@@ -53,6 +53,7 @@
          ButtonReset.TabIndex = 28;
          ButtonReset.Text = "Сброс";
          ButtonReset.UseVisualStyleBackColor = true;
+         ButtonReset.Click += ButtonReset_Click;
          // 
          // ButtonStop
          // 
@@ -63,6 +64,7 @@
          ButtonStop.TabIndex = 27;
          ButtonStop.Text = "Стоп";
          ButtonStop.UseVisualStyleBackColor = true;
+         ButtonStop.Click += ButtonStop_Click;
          // 
          // ButtonStart
          // 
@@ -73,6 +75,7 @@
          ButtonStart.TabIndex = 26;
          ButtonStart.Text = "Старт";
          ButtonStart.UseVisualStyleBackColor = true;
+         ButtonStart.Click += ButtonStart_Click;
          // 
          // TextBoxSeconds
          // 
@@ -98,6 +101,7 @@
          MinimizeBox = false;
          Name = "Form1";
          Text = "Таймер";
+         FormClosing += FormOne_Closing;
          ResumeLayout(false);
          PerformLayout();
       }
