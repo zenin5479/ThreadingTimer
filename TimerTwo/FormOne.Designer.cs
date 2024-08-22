@@ -1,6 +1,6 @@
 ﻿namespace TimerTwo
 {
-   partial class Form1
+   partial class FormOne
    {
       /// <summary>
       ///  Required designer variable.
@@ -102,7 +102,7 @@
          Name = "Form1";
          Text = "Таймер";
          FormClosing += FormOne_Closing;
-         Load += Form1_Load;
+         Load += FormOne_Load;
          ResumeLayout(false);
          PerformLayout();
       }

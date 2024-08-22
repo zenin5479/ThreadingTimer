@@ -5,16 +5,16 @@ using System.Windows.Forms;
 
 namespace TimerTwo
 {
-   public partial class Form1 : Form
+   public partial class FormOne : Form
    {
       private System.Threading.Timer _t1;
 
-      public Form1()
+      public FormOne()
       {
          InitializeComponent();
       }
 
-      private void Form1_Load(object sender, EventArgs e)
+      private void FormOne_Load(object sender, EventArgs e)
       {
 
       }
