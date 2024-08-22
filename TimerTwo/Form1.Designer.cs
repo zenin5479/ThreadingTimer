@@ -101,6 +101,7 @@
          MinimizeBox = false;
          Name = "Form1";
          Text = "Таймер";
+         FormClosing += FormOne_Closing;
          Load += Form1_Load;
          ResumeLayout(false);
          PerformLayout();
