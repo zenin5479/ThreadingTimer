@@ -103,6 +103,7 @@
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Таймер";
          FormClosing += FormOne_Closing;
+         Load += this.FormOne_Load;
          ResumeLayout(false);
          PerformLayout();
       }

@@ -16,6 +16,11 @@ namespace TimerOne
          _ts = new TimeSpan(0, 0, 0, 0, 0);
       }
 
+      private void FormOne_Load(object sender, EventArgs e)
+      {
+
+      }
+
       private void ButtonStart_Click(object sender, EventArgs e)
       {
          _t1 = new System.Threading.Timer(MetodSekundomer, null, 0, 10);
