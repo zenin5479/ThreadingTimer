@@ -87,7 +87,7 @@
          TextBoxSeconds.Size = new System.Drawing.Size(201, 182);
          TextBoxSeconds.TabIndex = 30;
          // 
-         // Form1
+         // FormOne
          // 
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
          ClientSize = new System.Drawing.Size(270, 289);
@@ -99,7 +99,8 @@
          Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
          MaximizeBox = false;
          MinimizeBox = false;
-         Name = "Form1";
+         Name = "FormOne";
+         StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Таймер";
          FormClosing += FormOne_Closing;
          Load += FormOne_Load;
