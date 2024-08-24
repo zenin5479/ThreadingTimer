@@ -6,11 +6,11 @@ using System.Windows.Forms;
 
 namespace TimerThree
 {
-   public partial class Form1 : Form
+   public partial class FormOne : Form
    {
       private System.Threading.Timer _stateTimer;
 
-      public Form1()
+      public FormOne()
       {
          InitializeComponent();
       }
@@ -63,7 +63,7 @@ namespace TimerThree
       public void CheckStatus(object stateInfo)
       {
          AutoResetEvent autoEvent = (AutoResetEvent)stateInfo;
-         Form1.TextBoxSeconds.AppendText(string.Format("{0:h:mm:ss.fff} Проверка статуса {1}", DateTime.Now,
+         FormOne.TextBoxSeconds.AppendText(string.Format("{0:h:mm:ss.fff} Проверка статуса {1}", DateTime.Now,
             (++_invokeCount).ToString()) + Environment.NewLine);
 
          //FormOne.TextBoxSeconds.AppendText(DateTime.Now.ToString("h:mm:ss.fff") + " Проверка статуса "

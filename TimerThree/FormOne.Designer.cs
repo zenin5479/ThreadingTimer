@@ -1,6 +1,6 @@
 ﻿namespace TimerThree
 {
-   partial class Form1
+   partial class FormOne
    {
       /// <summary>
       ///  Required designer variable.
@@ -75,7 +75,7 @@
          TextBoxSeconds.Size = new System.Drawing.Size(343, 182);
          TextBoxSeconds.TabIndex = 35;
          // 
-         // Form1
+         // FormOne
          // 
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
          ClientSize = new System.Drawing.Size(369, 264);
@@ -86,7 +86,8 @@
          Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
          MaximizeBox = false;
          MinimizeBox = false;
-         Name = "Form1";
+         Name = "FormOne";
+         StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Таймер";
          Load += Form1_Load;
          ResumeLayout(false);
