@@ -52,6 +52,7 @@
          ButtonReset.TabIndex = 37;
          ButtonReset.Text = "Сброс";
          ButtonReset.UseVisualStyleBackColor = true;
+         ButtonReset.Click += ButtonReset_Click;
          // 
          // ButtonStart
          // 
@@ -62,6 +63,7 @@
          ButtonStart.TabIndex = 36;
          ButtonStart.Text = "Старт";
          ButtonStart.UseVisualStyleBackColor = true;
+         ButtonStart.Click += ButtonStart_Click;
          // 
          // TextBoxSeconds
          // 
@@ -86,6 +88,7 @@
          MinimizeBox = false;
          Name = "Form1";
          Text = "Таймер";
+         Load += Form1_Load;
          ResumeLayout(false);
          PerformLayout();
       }
@@ -95,6 +98,6 @@
       private System.Windows.Forms.Label LabelStopwatch;
       private System.Windows.Forms.Button ButtonReset;
       private System.Windows.Forms.Button ButtonStart;
-      internal System.Windows.Forms.TextBox TextBoxSeconds;
+      internal static System.Windows.Forms.TextBox TextBoxSeconds;
    }
 }
