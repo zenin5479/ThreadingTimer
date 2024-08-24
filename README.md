@@ -1,2 +1,1 @@
-# ThreadingTimer
-Таймер System.Threading.Timer
+# Таймер System.Threading.Timer
