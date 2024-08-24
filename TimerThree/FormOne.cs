@@ -27,9 +27,9 @@ namespace TimerThree
          AutoResetEvent autoEvent = new AutoResetEvent(false);
          StatusChecker statusChecker = new StatusChecker(7);
 
-         // Создаем таймер, который запускает проверку состояния через 0,1 секунды, и каждые 0,5 секунды после этого
+         // Создаем таймер, который запускает проверку состояния через 0,5 секунды, и каждые 0,5 секунды после этого
          TextBoxSeconds.AppendText(DateTime.Now.ToString("h:mm:ss.fff") + " Создание таймера" + Environment.NewLine);
-         _stateTimer = new System.Threading.Timer(statusChecker.CheckStatus, autoEvent, 100, 500);
+         _stateTimer = new System.Threading.Timer(statusChecker.CheckStatus, autoEvent, 500, 500);
 
          // При появлении сигнала автоматического события изменяем период на каждые 0,3 секунды.
          autoEvent.WaitOne();
