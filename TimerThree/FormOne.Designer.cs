@@ -45,7 +45,7 @@
          // 
          // ButtonReset
          // 
-         ButtonReset.Location = new System.Drawing.Point(291, 224);
+         ButtonReset.Location = new System.Drawing.Point(237, 224);
          ButtonReset.Margin = new System.Windows.Forms.Padding(4);
          ButtonReset.Name = "ButtonReset";
          ButtonReset.Size = new System.Drawing.Size(65, 32);
@@ -72,13 +72,13 @@
          TextBoxSeconds.Multiline = true;
          TextBoxSeconds.Name = "TextBoxSeconds";
          TextBoxSeconds.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-         TextBoxSeconds.Size = new System.Drawing.Size(343, 182);
+         TextBoxSeconds.Size = new System.Drawing.Size(289, 182);
          TextBoxSeconds.TabIndex = 35;
          // 
          // FormOne
          // 
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-         ClientSize = new System.Drawing.Size(369, 264);
+         ClientSize = new System.Drawing.Size(314, 264);
          Controls.Add(LabelStopwatch);
          Controls.Add(ButtonReset);
          Controls.Add(ButtonStart);
